@@ -1,3 +1,7 @@
+## 1.1.0
+
+* add verbose option
+
 ## 1.0.1
 
 * fix bin path
