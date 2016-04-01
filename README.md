@@ -2,6 +2,10 @@
 
 Simple fernflower java decompiler wrapper
 
+## Installation
+
+A `fernflower <jarFile> <outputDir>` cli can be installed with `npm install -g fernflower`
+
 ## Usage
 
 ```js
