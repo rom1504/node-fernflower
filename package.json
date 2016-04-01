@@ -32,6 +32,6 @@
     "require-self": "^0.1.0"
   },
   "bin":{
-    "fernflower":"./bin/cli.sh"
+    "fernflower":"./bin/cli.js"
   }
 }
