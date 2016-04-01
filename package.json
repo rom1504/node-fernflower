@@ -1,0 +1,34 @@
+{
+  "name": "fernflower",
+  "version": "1.0.0",
+  "description": "Simple fernflower java decompiler wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "require-self && ant -buildfile fernflower/build.xml && mv fernflower/fernflower.jar ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rom1504/node-fernflower.git"
+  },
+  "keywords": [
+    "fernflower",
+    "java",
+    "decompiler",
+    "wrapper"
+  ],
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rom1504/node-fernflower/issues"
+  },
+  "homepage": "https://github.com/rom1504/node-fernflower#readme",
+  "dependencies": {
+    "es6-promisify": "^3.0.0",
+    "extract-zip": "^1.5.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "require-self": "^0.1.0"
+  }
+}
